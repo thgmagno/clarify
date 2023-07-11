@@ -1,0 +1,25 @@
+.btn-navegacao {
+    font-size: 1.35rem;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: midnightblue;
+    color: #efefef;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    transition: transform 100ms ease-in-out;
+}
+
+.btn-navegacao:hover {
+    /* transform: scale(1.03); */
+    background-color: #efefef;
+    color: #333;
+    border: 1px solid #202020;
+}
+
+.btn-navegacao:disabled:hover,
+.btn-navegacao:disabled {
+    color: #fff;
+    cursor: not-allowed;
+    background-color: #ccc;
+}
